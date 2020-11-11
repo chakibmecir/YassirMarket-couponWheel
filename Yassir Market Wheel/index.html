@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>spin wheel</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Roboto:100,400,700,900" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>
+    
+
+    <div onclick="openmenu()" class="open_wheel">
+        <i class="fas fa-gift"></i>
+    </div>
+
+
+    <div id="wheel_div" class="wheel_container">
+        <i onclick="closemenu()" class="fas fa-times-circle close_wheel"></i>
+        <div id="mainbox" class="mainbox">
+            <div id="box" class="box">
+                <div class="box1">
+                    <span class="span1"><b>-5%</b></span>
+                    <span class="span2 span6"><b>-0%</b></span>
+                    <span class="span3"><b>-50%</b></span>
+                    <span class="span4 span6"><b>-0%</b></span>
+                </div>
+                <div class="box2">
+                    <span class="span1 span5"><b>-10%</b></span>
+                    <span class="span2 span5"><b>0%</b></span>
+                    <span class="span3 span5"><b>20%</b></span>
+                    <span class="span4"><b>-0%</b></span>
+                </div>
+            </div>
+    
+            <button class="spin" onclick="spinWheel()">SPIN</button>
+        </div>
+    </div>
+
+
+
+
+    
+<script src="https://kit.fontawesome.com/228006f19a.js" crossorigin="anonymous"></script>
+<script src="js/main.js"></script>
+
+</body>
+</html>
